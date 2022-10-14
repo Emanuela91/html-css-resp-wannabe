@@ -130,17 +130,18 @@ img {
 
  /* Grandezza Tablet */
 
- @media screen and (max-widht: 768px) {
-     header{
-     width: 100%;
-    }
-      
-     main{
+ @media screen and (max-width: 768px) {
+    header{
         width: 100%;
-     }
+    }
+    
+    .lessons.text-center{
+        width: 100%;
+    }
 
-     
-
+    .container{
+        width: 100%;        
+    }
  }
 
  
